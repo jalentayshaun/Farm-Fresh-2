@@ -1,0 +1,309 @@
+:root {
+    --green: #99B080;
+    --dark-green: #748E63;
+    --orange: #F9B572;
+    --grey: #FAF8ED;
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.playfair-display {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Montserrat", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-family: "Playfair Display", serif;
+}
+
+section {
+    /* border: 1px solid orange; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div {
+    /* border: 1px solid rgb(0, 98, 255); */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-body h1 {
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.card-body small {
+    color: var(--grey);
+}
+
+.card-body ul {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Header */
+#header {
+    /* background-color: var(--dark-green); */
+    background-color: transparent;
+    min-height: 5vh;
+}
+
+#header img {
+    height: 1.5rem;
+}
+
+#header ul>li>a {
+    color: var(--dark-green);
+}
+
+/* Footer */
+#footer {
+    background-color: var(--dark-green);
+    min-height: 5vh;
+}
+
+#footer img {
+    height: 2rem;
+}
+
+/* Home Page */
+/* Hero */
+#hero {
+    background-image: url(./images/dylan-de-jonge.jpg);
+    background-position: start;
+    background-size: cover;
+    color: var(--grey);
+    height: 100vh;
+}
+
+#hero h1 {
+    text-shadow: 2px 2px 10px black;
+}
+
+#hero p {
+    color: var(--grey);
+    text-shadow: 2px 2px 10px black;
+    font-size: xx-large;
+}
+
+/* About */
+#about {
+    justify-content: space-between;
+    background-color: var(--grey);
+    min-height: 50vh;
+}
+
+#about img {
+    border-radius: 20px;
+}
+
+/* Business */
+#business>div>a {
+    flex: 1;
+    border: 1px solid var(--grey);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.433);
+    min-width: 10rem;
+    background-position: center;
+    background-size: cover;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+#business h3 {
+    text-shadow: 2px 2px 5px black;
+}
+
+#business .card-body {
+    color: var(--grey);
+    min-height: 30rem;
+}
+
+#product-card {
+    background-image: url(./images/annie-spratt.jpg);
+}
+
+#merch-card {
+    background-image: url(./images/javier-santos-guzman.jpg);
+}
+
+#booking-card {
+    background-image: url(./images/markus-spiske.jpg);
+}
+
+#fitness-card {
+    background-image: url(./images/samuel-girven.jpg);
+}
+
+/* Contact */
+#contact {
+    flex-direction: row;
+    min-height: 50vh;
+    background-color: var(--grey);
+}
+
+#contact>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact-info {
+    align-items: center;
+}
+
+#contact-info h3 {
+    color: var(--green);
+}
+
+/* Products Page */
+/* Product Menu Bar */
+#product-menu {
+    background-color: var(--green);
+}
+
+#product-menu a {
+    color: var(--grey);
+}
+
+/* #product-catalogue {
+    background-image: url(./svgs/hex-pattern.svg);
+    background-position: center;
+    background-size: cover;
+} */
+
+#product-catalogue h2 {
+    background-color: rgba(0, 0, 0, 0.294);
+    padding: 5px 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#product-catalogue>div {
+    margin: 0 3rem 3rem 3rem;
+}
+
+#product-catalogue img {
+    object-fit: cover;
+}
+
+/* Booking Page */
+#booking {
+    min-height: 90vh;
+}
+
+#booking-tiers .card {
+    border-radius: 0;
+}
+
+#beginner-session {
+    background-image: url(./images/kyle-johnson.jpg);
+}
+
+.pro-tier-header {
+    border: 1px solid var(--dark-green);
+}
+
+#pro-session {
+    background-image: url(./images/john-fornander.jpg);
+}
+
+#pro-session .session-register {
+    border-color: var(--green);
+}
+
+.elite-tier-header {
+    background-color: var(--green);
+    border: 1px solid var(--dark-green);
+}
+
+#elite-session {
+    background-image: url(./images/grzegorz-rakowski.jpg);
+}
+
+#elite-session h1 {
+    color: var(--green);
+}
+
+#elite-session small {
+    color: var(--green);
+}
+
+#elite-session .session-register {
+    background-color: var(--green);
+    border-color: var(--dark-green);
+}
+
+#elite-session .session-register:hover {
+    color: var(--green);
+    background-color: white;
+}
+
+.session-register {
+    color: black;
+    background-color: white;
+    border-radius: 0;
+    border: 2px solid;
+}
+
+.session-register:hover {
+    color: white;
+    background-color: var(--green);
+}
+
+/* Fitness Challenge Page */
+#fitness-challenge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+/* Checkout Page */
+#cart-summary span.badge {
+    color: white;
+    background-color: var(--green);
+}
+
+.promo-code {
+    color: var(--green);
+}
+
+.form-check-input:checked {
+    background-color: var(--green);
+    border: 1px solid var(--dark-green);
+}
+
+#checkout-form-submit {
+    color: white;
+    background-color: var(--green);
+    border: 2px solid var(--dark-green);
+}
+
+#checkout-form-submit:hover {
+    color: var(--dark-green);
+    background-color: white;
+}
