@@ -93,7 +93,7 @@ div {
 /* Home Page */
 /* Hero */
 #hero {
-    background-image: url(./images/dylan-de-jonge.jpg);
+    background-image: url(assets/images/dylan-de-jonge.jpg);
     background-position: start;
     background-size: cover;
     color: var(--grey);
@@ -144,19 +144,19 @@ div {
 }
 
 #product-card {
-    background-image: url(./images/annie-spratt.jpg);
+    background-image: url(assets/images/annie-spratt.jpg);
 }
 
 #merch-card {
-    background-image: url(./images/javier-santos-guzman.jpg);
+    background-image: url(assets/images/javier-santos-guzman.jpg);
 }
 
 #booking-card {
-    background-image: url(./images/markus-spiske.jpg);
+    background-image: url(assets/images/markus-spiske.jpg);
 }
 
 #fitness-card {
-    background-image: url(./images/samuel-girven.jpg);
+    background-image: url(assets/images/samuel-girven.jpg);
 }
 
 /* Contact */
@@ -220,7 +220,7 @@ div {
 }
 
 #beginner-session {
-    background-image: url(./images/kyle-johnson.jpg);
+    background-image: url(assets/images/kyle-johnson.jpg);
 }
 
 .pro-tier-header {
@@ -228,7 +228,7 @@ div {
 }
 
 #pro-session {
-    background-image: url(./images/john-fornander.jpg);
+    background-image: url(assets/images/john-fornander.jpg);
 }
 
 #pro-session .session-register {
@@ -241,7 +241,7 @@ div {
 }
 
 #elite-session {
-    background-image: url(./images/grzegorz-rakowski.jpg);
+    background-image: url(assets/images/grzegorz-rakowski.jpg);
 }
 
 #elite-session h1 {
