@@ -249,7 +249,7 @@ div {
 
 /* Booking Page */
 #booking {
-    min-height: 75vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
