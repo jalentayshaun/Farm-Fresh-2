@@ -119,6 +119,7 @@ div {
 
 #about img {
     border-radius: 20px;
+    max-width: 75%;
 }
 
 /* Business */
@@ -162,11 +163,11 @@ div {
 /* Contact */
 #contact {
     flex-direction: row;
-    min-height: 50vh;
+    min-height: 30vh;
     background-color: var(--grey);
 }
 
-#contact>div {
+#contact > div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -178,6 +179,27 @@ div {
 
 #contact-info h3 {
     color: var(--green);
+}
+
+@media (max-width: 1140px) {
+    #contact p.lead {
+            font-size: large;
+    }
+
+    #contact-info h3 {
+            font-size: larger;
+    }
+}
+
+@media (max-width: 768px) {
+    #contact {
+        flex-direction: column;
+    }
+
+    #contact div {
+        width: 100%;
+        align-items: center;
+    }
 }
 
 /* Products Page */
