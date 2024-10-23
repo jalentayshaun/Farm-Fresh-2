@@ -1,226 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Bootstrap -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-        <!-- Google Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-            rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="styles.css">
-        <title>Booking Page</title>
-    </head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Farm Fresh Gainz</title>
+</head>
 
-    <body>
-        <!-- Header -->
-        <section id="header">
-            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between m-4">
-                <div class="col-md-3 mb-2 mb-md-0">
-                    <!-- <a href="/">
-                            <img id="logo" src="assets/images/farm-fresh-logo.png" alt="Logo">
-                        </a> -->
-                </div>
-    
-                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-                    <li><a href="/" class="nav-link px-2 link-secondary">Home</a></li>
-                    <li><a href="https://www.farm-fresh-gainz.myshopify.com" class="nav-link px-2">Meats</a></li>
-                    <!-- <li><a href="/merch" class="nav-link px-2">Merch</a></li> -->
-                    <li><a href="/booking.html" class="nav-link px-2">Booking</a></li>
-                    <!-- <li><a href="/fit-challenge.html" class="nav-link px-2">Fitness Challenge</a></li> -->
-                </ul>
-    
-                <div class="col-md-3 text-end">
-                    <!-- <button type="button" class="btn me-2">
-                            <img src="assets/svgs/search.svg" alt="Search icon">
-                        </button>
-                        <button type="button" class="btn">
-                            <img src="assets/svgs/shopping-cart.svg" alt="Shopping cart icon">
-                        </button> -->
-                </div>
-            </header>
-        </section>
+<body>
+    <!-- Header -->
+    <section id="header">
+        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between m-4">
+            <div class="col-md-3 mb-2 mb-md-0"></div>
 
-        <div id="booking" class="container py-3">
-            <header>
-                <!-- <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
-                <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="me-2" viewBox="0 0 118 94"
-                        role="img">
-                        <title>Bootstrap</title>
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"
-                            fill="currentColor"></path>
-                    </svg>
-                    <span class="fs-4">Pricing example</span>
-                </a>
+            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="/" class="nav-link px-2 link-secondary">Home</a></li>
+                <li><a href="/meats.html" class="nav-link px-2">Meats</a></li>
+                <!-- <li><a href="/merch" class="nav-link px-2">Merch</a></li> -->
+                <li><a href="/booking.html" class="nav-link px-2">Booking</a></li>
+                <!-- <li><a href="/fit-challenge.html" class="nav-link px-2">Fitness Challenge</a></li> -->
+            </ul>
 
-                <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Features</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Enterprise</a>
-                    <a class="me-3 py-2 link-body-emphasis text-decoration-none" href="#">Support</a>
-                    <a class="py-2 link-body-emphasis text-decoration-none" href="#">Pricing</a>
-                </nav>
-            </div> -->
+            <div class="col-md-3 text-end"></div>
+        </header>
+    </section>
 
-                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                    <h1 class="display-4 fw-normal text-body-emphasis">Book A Session</h1>
-                    <p class="fs-5 text-body-secondary">Our trainers are here to work alongside you, whether you're a
-                        complete beginner or an expert looking to
-                        improve, we have a program built specifically for you!
-                    </p>
-                </div>
-            </header>
+    <div id="booking" class="container py-3">
+        <header>
+            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                <h1 class="display-4 fw-normal text-body-emphasis">Book A Session</h1>
+                <p class="fs-5 text-body-secondary">Our trainers are here to work alongside you, whether you're a
+                    complete beginner or an expert looking to
+                    improve, we have a program built specifically for you!
+                </p>
+            </div>
+        </header>
 
-            <main>
-                <div id="booking-tiers" class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-                    <div class="col">
-                        <div class="card mb-4 shadow-sm">
-                            <div class="py-3">
-                                <h4 class="my-0 fw-normal">Beginner</h4>
-                            </div>
-                            <div id="beginner-session" class="card-body">
-                                <h1 class="card-title pricing-card-title">$120<small class="fw-light">/month</small></h1>
-                                <ul class="list-unstyled mt-3 mb-4">
-                                    <li>Basic Meal Plan</li>
-                                    <li>Monthly Updates</li>
-                                </ul>
-                                <a href="" class="w-100 btn btn-lg session-register">Register</a>
-                            </div>
+        <main>
+            <div id="booking-tiers" class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                <div class="col">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="py-3">
+                            <h4 class="my-0 fw-normal">Beginner</h4>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card mb-4 shadow-sm">
-                            <div class="py-3 pro-tier-header">
-                                <h4 class="my-0 fw-normal">Professional</h4>
-                            </div>
-                            <div id="pro-session" class="card-body">
-                                <h1 class="card-title pricing-card-title">$210<small class="fw-light">/month</small></h1>
-                                <ul class="list-unstyled mt-3 mb-4">
-                                    <li>Meal Plan</li>
-                                    <li>Workout Plan</li>
-                                    <li>Monthly Updates</li>
-                                </ul>
-                                <a href="" class="w-100 btn btn-lg session-register">Register</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card mb-4 shadow-sm">
-                            <div class="py-3 elite-tier-header">
-                                <h4 class="my-0 fw-normal">Elite</h4>
-                            </div>
-                            <div id="elite-session" class="card-body">
-                                <h1 class="card-title pricing-card-title">$305<small class="fw-light">/month</small></h1>
-                                <ul class="list-unstyled mt-3 mb-4">
-                                    <li>Meal Plan</li>
-                                    <li>Workout Plan</li>
-                                    <li>Weekly Updates</li>
-                                    <li>1 Online Chat Per Month</li>
-                                </ul>
-                                <a href="" class="w-100 btn btn-lg session-register">Register</a>
-                            </div>
+                        <div id="beginner-session" class="card-body">
+                            <h1 class="card-title pricing-card-title">$120<small class="fw-light">/month</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Basic Meal Plan</li>
+                                <li>Monthly Updates</li>
+                            </ul>
+                            <a href="" class="w-100 btn btn-lg session-register">Register</a>
                         </div>
                     </div>
                 </div>
-
-                <h2 class="display-6 text-center mb-4">Compare plans</h2>
-
-                <div class="table-responsive">
-                    <table class="table text-center">
-                        <thead>
-                            <tr>
-                                <th style="width: 34%;"></th>
-                                <th style="width: 22%;">Beginner</th>
-                                <th style="width: 22%;">Professional</th>
-                                <th style="width: 22%;">Elite</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th scope="row" class="text-start">One On One Training</th>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-start">Farm Fresh Gear</th>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-start">Access Multiple Facilities</th>
-                                <td></td>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                            </tr>
-                        </tbody>
-
-                        <tbody>
-                            <tr>
-                                <th scope="row" class="text-start">Extra Amenities</th>
-                                <td></td>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-start">Elite Fitness Programs</th>
-                                <td></td>
-                                <td></td>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-start">Perks</th>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                                <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
-                            </tr>
-                            <tr>
-                                <th scope="row" class="text-start">Registering Fee</th>
-                                <td>$29.99 one time</td>
-                                <td>$14.99 one time</td>
-                                <td>$14.99 one time</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="col">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="py-3 pro-tier-header">
+                            <h4 class="my-0 fw-normal">Professional</h4>
+                        </div>
+                        <div id="pro-session" class="card-body">
+                            <h1 class="card-title pricing-card-title">$210<small class="fw-light">/month</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Meal Plan</li>
+                                <li>Workout Plan</li>
+                                <li>Monthly Updates</li>
+                            </ul>
+                            <a href="" class="w-100 btn btn-lg session-register">Register</a>
+                        </div>
+                    </div>
                 </div>
-            </main>
-        </div>
-
-        <!-- Footer -->
-        <section id="footer">
-            <footer class="d-flex flex-wrap justify-content-between align-items-center m-4">
-                <div class="col-md-4 d-flex align-items-center">
-                    <span class="mb-3 mb-md-0">© Farm Fresh Gainz 2024</span>
+                <div class="col">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="py-3 elite-tier-header">
+                            <h4 class="my-0 fw-normal">Elite</h4>
+                        </div>
+                        <div id="elite-session" class="card-body">
+                            <h1 class="card-title pricing-card-title">$305<small class="fw-light">/month</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Meal Plan</li>
+                                <li>Workout Plan</li>
+                                <li>Weekly Updates</li>
+                                <li>1 Online Chat Per Month</li>
+                            </ul>
+                            <a href="" class="w-100 btn btn-lg session-register">Register</a>
+                        </div>
+                    </div>
                 </div>
-                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li class="ms-3">
-                        <a href="https://www.instagram.com/farmfreshgainz/"><img src="assets/svgs/instagram.svg"
-                                alt="Instagram Link"></a>
-                    </li>
-                    <li class="ms-3">
-                        <a href="https://www.facebook.com/profile.php?id=61559126277711"><img src="assets/svgs/facebook.svg"
-                                alt="Facebook Link"></a>
-                    </li>
-                </ul>
-            </footer>
-        </section>
+            </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-            crossorigin="anonymous">
-        </script>
-    </body>
+            <h2 class="display-6 text-center mb-4">Compare plans</h2>
+
+            <div class="table-responsive">
+                <table class="table text-center">
+                    <thead>
+                        <tr>
+                            <th style="width: 34%;"></th>
+                            <th style="width: 22%;">Beginner</th>
+                            <th style="width: 22%;">Professional</th>
+                            <th style="width: 22%;">Elite</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="text-start">One On One Training</th>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Farm Fresh Gear</th>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Access Multiple Facilities</th>
+                            <td></td>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row" class="text-start">Extra Amenities</th>
+                            <td></td>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Elite Fitness Programs</th>
+                            <td></td>
+                            <td></td>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Perks</th>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                            <td><img class="check-mark" src="assets/svgs/check-lg.svg" alt="check mark"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="text-start">Registering Fee</th>
+                            <td>$29.99 one time</td>
+                            <td>$14.99 one time</td>
+                            <td>$14.99 one time</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <section id="footer">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center m-4">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="mb-3 mb-md-0">© Farm Fresh Gainz 2024</span>
+            </div>
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3">
+                    <a href="https://www.instagram.com/farmfreshgainz/"><img src="assets/svgs/instagram.svg"
+                            alt="Instagram Link"></a>
+                </li>
+                <li class="ms-3">
+                    <a href="https://www.facebook.com/profile.php?id=61559126277711"><img src="assets/svgs/facebook.svg"
+                            alt="Facebook Link"></a>
+                </li>
+            </ul>
+        </footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+</body>
 
 </html>
