@@ -202,12 +202,27 @@ div {
     margin-bottom: 1rem;
 }
 
-#product-catalogue>div {
+#product-catalogue > div {
     margin: 0 3rem 3rem 3rem;
 }
 
 #product-catalogue img {
     object-fit: cover;
+    height: 300px;
+    width: 100%;
+}
+
+#product-catalogue p.card-text {
+    margin-bottom: 0;
+}
+
+#product-catalogue small {
+    color: var(--dark-green);
+    margin-bottom: 10px;
+}
+
+#product-catalogue small.text-body-secondary {
+    font-weight: 550;
 }
 
 /* Booking Page */
