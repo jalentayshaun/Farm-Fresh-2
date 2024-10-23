@@ -40,70 +40,74 @@
         </header>
     </section>
 
-    <div id="booking" class="container py-3">
-        <header>
-            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-4 fw-normal text-body-emphasis">Book A Session</h1>
-                <p class="fs-5 text-body-secondary">Our trainers are here to work alongside you, whether you're a
-                    complete beginner or an expert looking to
-                    improve, we have a program built specifically for you!
-                </p>
-            </div>
-        </header>
+    <div id="booking" class="container">
+        <div>
+            <header>
+                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                    <h1 class="display-4 fw-normal text-body-emphasis">Book A Session</h1>
+                    <p class="fs-5 text-body-secondary">Our trainers are here to work alongside you, whether you're a
+                        complete beginner or an expert looking to
+                        improve, we have a program built specifically for you!
+                    </p>
+                </div>
+            </header>
+            
+            <main>
+                <div id="booking-tiers" class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                    <div class="col">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="py-3">
+                                <h4 class="my-0 fw-normal">Beginner</h4>
+                            </div>
+                            <div id="beginner-session" class="card-body">
+                                <h1 class="card-title pricing-card-title">$120<small class="fw-light">/month</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Basic Meal Plan</li>
+                                    <li>Monthly Updates</li>
+                                </ul>
+                                <a href="" class="w-100 btn btn-lg session-register">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="py-3 pro-tier-header">
+                                <h4 class="my-0 fw-normal">Professional</h4>
+                            </div>
+                            <div id="pro-session" class="card-body">
+                                <h1 class="card-title pricing-card-title">$210<small class="fw-light">/month</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Meal Plan</li>
+                                    <li>Workout Plan</li>
+                                    <li>Monthly Updates</li>
+                                </ul>
+                                <a href="" class="w-100 btn btn-lg session-register">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-4 shadow-sm">
+                            <div class="py-3 elite-tier-header">
+                                <h4 class="my-0 fw-normal">Elite</h4>
+                            </div>
+                            <div id="elite-session" class="card-body">
+                                <h1 class="card-title pricing-card-title">$305<small class="fw-light">/month</small></h1>
+                                <ul class="list-unstyled mt-3 mb-4">
+                                    <li>Meal Plan</li>
+                                    <li>Workout Plan</li>
+                                    <li>Weekly Updates</li>
+                                    <li>1 Online Chat Per Month</li>
+                                </ul>
+                                <a href="" class="w-100 btn btn-lg session-register">Register</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        
 
-        <main>
-            <div id="booking-tiers" class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-                <div class="col">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="py-3">
-                            <h4 class="my-0 fw-normal">Beginner</h4>
-                        </div>
-                        <div id="beginner-session" class="card-body">
-                            <h1 class="card-title pricing-card-title">$120<small class="fw-light">/month</small></h1>
-                            <ul class="list-unstyled mt-3 mb-4">
-                                <li>Basic Meal Plan</li>
-                                <li>Monthly Updates</li>
-                            </ul>
-                            <a href="" class="w-100 btn btn-lg session-register">Register</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="py-3 pro-tier-header">
-                            <h4 class="my-0 fw-normal">Professional</h4>
-                        </div>
-                        <div id="pro-session" class="card-body">
-                            <h1 class="card-title pricing-card-title">$210<small class="fw-light">/month</small></h1>
-                            <ul class="list-unstyled mt-3 mb-4">
-                                <li>Meal Plan</li>
-                                <li>Workout Plan</li>
-                                <li>Monthly Updates</li>
-                            </ul>
-                            <a href="" class="w-100 btn btn-lg session-register">Register</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card mb-4 shadow-sm">
-                        <div class="py-3 elite-tier-header">
-                            <h4 class="my-0 fw-normal">Elite</h4>
-                        </div>
-                        <div id="elite-session" class="card-body">
-                            <h1 class="card-title pricing-card-title">$305<small class="fw-light">/month</small></h1>
-                            <ul class="list-unstyled mt-3 mb-4">
-                                <li>Meal Plan</li>
-                                <li>Workout Plan</li>
-                                <li>Weekly Updates</li>
-                                <li>1 Online Chat Per Month</li>
-                            </ul>
-                            <a href="" class="w-100 btn btn-lg session-register">Register</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <h2 class="display-6 text-center mb-4">Compare plans</h2>
+            <!-- <h2 class="display-6 text-center mb-4">Compare plans</h2>
 
             <div class="table-responsive">
                 <table class="table text-center">
@@ -163,8 +167,8 @@
                         </tr>
                     </tbody>
                 </table>
-            </div>
-        </main>
+            </div> -->
+        <!-- </main> -->
     </div>
 
     <!-- Footer -->
