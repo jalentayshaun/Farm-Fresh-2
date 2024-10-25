@@ -218,14 +218,27 @@ div {
     background-size: cover;
 } */
 
+#product-catalogue > div {
+    margin: 0 3rem;
+    padding-bottom: 3rem;
+}
+
+div#min-order {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+    padding: 0;
+}
+
+div#min-order small {
+    color: red;
+    font-weight: 600;
+}
+
 #product-catalogue h2 {
     background-color: rgba(0, 0, 0, 0.294);
     padding: 5px 1.5rem;
     margin-bottom: 1rem;
-}
-
-#product-catalogue > div {
-    margin: 0 3rem 3rem 3rem;
 }
 
 #product-catalogue img {
