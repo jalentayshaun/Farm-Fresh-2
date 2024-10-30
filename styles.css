@@ -262,7 +262,7 @@ div#min-order small {
 
 /* Booking Page */
 #booking {
-    min-height: 90vh;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -325,6 +325,50 @@ div#min-order small {
 .session-register:hover {
     color: white;
     background-color: var(--green);
+}
+
+#trainers > div {
+    display: flex;
+    justify-content: center;
+}
+
+#trainers > div h2 {
+    padding-bottom: 20px;
+}
+
+.trainer {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--grey);
+    border-top: 2px solid rgba(74, 110, 45, 0.156);
+    border-bottom: 2px solid rgb(74, 110, 45, 0.156);
+}
+
+.trainer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.trainer-photo {
+    flex: 1;
+}
+
+.trainer-photo img {
+    border-radius: 20px;
+    width: 95%;
+}
+
+.trainer-info {
+    flex: 2;
+}
+
+@media (max-width: 768px) {
+    .trainer {
+        flex-direction: column;
+    }
 }
 
 /* Fitness Challenge Page */
