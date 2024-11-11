@@ -223,14 +223,14 @@ div {
     padding-bottom: 3rem;
 }
 
-div#min-order {
+div.min-order {
     display: flex;
     justify-content: center;
     margin: 10px 0px;
     padding: 0;
 }
 
-div#min-order small {
+div.min-order small {
     color: red;
     font-weight: 600;
 }
@@ -272,6 +272,12 @@ div#min-order small {
     border-radius: 0;
 }
 
+h2.pricing-card-title {
+    color: var(--grey);
+    font-weight: bold;
+    text-shadow: 2px 2px 10px black;
+}
+
 #beginner-session {
     background-image: url(assets/images/kyle-johnson.jpg);
 }
@@ -295,14 +301,6 @@ div#min-order small {
 
 #elite-session {
     background-image: url(assets/images/danielle-cerullo.jpg);
-}
-
-#elite-session h1 {
-    color: var(--green);
-}
-
-#elite-session small {
-    color: var(--green);
 }
 
 #elite-session .session-register {
